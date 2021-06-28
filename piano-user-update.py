@@ -23,7 +23,8 @@ my_headers = {
 
 my_params = {
     'aid': 'o1sRRZSLlw',
-    'api_token': 'zziNT81wShznajW2BD5eLA4VCkmNJ88Guye7Sw4D'
+    'api_token': 'zziNT81wShznajW2BD5eLA4VCkmNJ88Guye7Sw4D',
+    'email': 'allegra.anka@piano.io'
 }
 
 response = requests.post(
@@ -31,3 +32,16 @@ response = requests.post(
 
 # Print for testing
 print(response.text)
+
+
+### Update User Section ###
+
+# Check to see if user id is in system
+
+# If yes, do nothing
+
+# If not, update id to correct id
+
+# Check each row until the end
+
+# Export CSV
